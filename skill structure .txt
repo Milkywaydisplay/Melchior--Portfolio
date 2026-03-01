@@ -1,0 +1,22 @@
+skills/
+    solidworks.html
+    autodesk-inventor.html
+    comsol-multiphysic.html
+    C++Programming.html
+    C-Programming.html
+    labview.html
+    agilent.html
+    LogicCircuits.html
+    google-earth.html
+    Advance Sensors and Interface Devices.html
+    icons/
+        solidworks.png
+        inventor.png
+        comsol.png
+        c.png
+        cplusplus.png
+        labview.png
+        agilent.png
+        logic.png
+        sensors.png
+        googleearth.png

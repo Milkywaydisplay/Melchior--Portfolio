@@ -16,7 +16,7 @@ body {
     linear-gradient(to bottom, rgba(0, 120, 255, 0.18) 1px, transparent 1px),
     linear-gradient(to right, rgba(255, 0, 0, 0.18) 1px, transparent 1px);
 
-  background-size: 100% 28px, 60px 100%;
+   background-size: 100% 28px, 60px 100%;
   color: #333;
 }
 
@@ -146,3 +146,141 @@ footer {
   color: #ccc;
   font-family: 'Courier Prime', monospace;
 }
+
+/* ===========================
+   NAVIGATION BAR
+   =========================== */
+.navbar {
+    background: #0A3D62;
+    padding: 12px 0;
+    text-align: center;
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar li {
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* ===========================
+   FULL‑TALL HEADER STRIP
+   =========================== */
+.header-strip {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 40px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Fade into notebook grid */
+.header-strip::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(255,255,255,0.9) 100%);
+}
+
+/* ===========================
+   HEADER BACKGROUND CLASSES
+   =========================== */
+.header-blueprint {
+    background-image: url('/assets/headers/default-blueprint.png');
+}
+
+.header-logic {
+    background-image: url('/assets/headers/logic-header.png');
+}
+
+.header-agilent {
+    background-image: url('/assets/headers/agilent-header.png');
+}
+
+.header-cad {
+    background-image: url('/assets/headers/cad-header.png');
+}
+
+.header-simulation {
+    background-image: url('/assets/headers/simulation-header.png');
+}
+
+.header-programming {
+    background-image: url('/assets/headers/programming-header.png');
+}
+
+.header-sensors {
+    background-image: url('/assets/headers/sensors-header.png');
+}
+
+/* ===========================
+   SKILLS GRID
+   =========================== */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    padding: 40px;
+}
+
+.skill-card {
+    background: #0A3D62;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    transition: transform 0.2s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-6px);
+}
+
+.skill-card img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 12px;
+}
+
+.college-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.college-card {
+    background: white;
+    border-left: 6px solid #0A3D62;
+    padding: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #111;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.college-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.college-card h3 {
+    margin-top: 0;
+    color: #0A3D62;
+}
+

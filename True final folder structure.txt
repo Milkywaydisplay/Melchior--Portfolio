@@ -1,0 +1,51 @@
+Melchior--Portfolio/
+│
+├── index.html
+├── style.css
+├── CNAME
+│
+├── skills/
+│   ├── index.html
+│   ├── solidworks.html
+│   ├── autodesk-inventor.html
+│   ├── comsol-multiphysic.html
+│   ├── C++Programming.html
+│   ├── C-Programming.html
+│   ├── labview.html
+│   ├── agilent.html
+│   ├── LogicCircuits.html
+│   ├── google-earth.html
+│   ├── Advance Sensors and Interface Devices.html
+│   └── icons/
+│       ├── solidworks.png
+│       ├── inventor.png
+│       ├── comsol.png
+│       ├── c.png
+│       ├── cplusplus.png
+│       ├── labview.png
+│       ├── agilent.png
+│       ├── logic.png
+│       ├── sensors.png
+│       └── googleearth.png
+│
+├── college/
+│   ├── index.html
+│   ├── project1.html
+│   ├── project2.html
+│   └── ...
+│
+├── documents/
+│   ├── resume.pdf
+│   ├── certificates/
+│   └── embedded-word-docs/
+│
+└── assets/
+    ├── headers/
+    │   ├── default-blueprint.png
+    │   ├── logic-header.png
+    │   ├── agilent-header.png
+    │   ├── cad-header.png
+    │   ├── simulation-header.png
+    │   ├── programming-header.png
+    │   └── sensors-header.png
+    └── notebook-grid.png
