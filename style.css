@@ -284,3 +284,50 @@ footer {
     color: #0A3D62;
 }
 
+#athlete {
+  width: 280px;
+  transition: transform 0.3s ease-out;
+}
+
+
+#athlete {
+  animation: glow 3s ease-in-out infinite;
+}
+
+@keyframes glow {
+  0% { filter: drop-shadow(0 0 0px #0A3D62); }
+  50% { filter: drop-shadow(0 0 6px #0A3D62); }
+  100% { filter: drop-shadow(0 0 0px #0A3D62); }
+}
+
+#athlete {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: all 0.8s ease-out;
+}
+
+#athlete.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+
+#athlete {
+  position: relative;
+}
+
+#athlete::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 100%;
+  height: 100%;
+  background: url('/assets/athlete.png') no-repeat;
+  background-size: contain;
+  opacity: 0.25;
+  filter: blur(4px);
+  transform: translateX(-10px);
+}
+
