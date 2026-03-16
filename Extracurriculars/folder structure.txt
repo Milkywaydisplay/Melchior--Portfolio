@@ -1,0 +1,8 @@
+Extracurriculars/
+    index.html
+    community/
+        index.html   ← THIS FILE
+        shpe.html
+        swe.html
+        stem.html
+        community.html
